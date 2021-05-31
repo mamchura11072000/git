@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GostinicaModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Nomera">
+    <Key>
+      <PropertyRef Name="ID_nomera" />
+    </Key>
+    <Property Name="ID_nomera" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nomer__" Type="Int32" />
+    <Property Name="Stoimost_v_sutki" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Kolichestvo_mest" Type="Int32" />
+    <Property Name="ID_kategorii" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="GostinicaEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Nomeras" EntityType="Self.Nomera" />
+  </EntityContainer>
+</Schema>

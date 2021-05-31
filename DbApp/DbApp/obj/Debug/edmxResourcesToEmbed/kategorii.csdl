@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GostinicaModel5" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Kategorii">
+    <Key>
+      <PropertyRef Name="ID_kategorii" />
+    </Key>
+    <Property Name="ID_kategorii" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tip" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Nomeras" Relationship="Self.FK__Nomera__ID_kateg__4BAC3F29" FromRole="Kategorii" ToRole="Nomera" />
+  </EntityType>
+  <EntityType Name="Nomera">
+    <Key>
+      <PropertyRef Name="ID_nomera" />
+    </Key>
+    <Property Name="ID_nomera" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nomer__" Type="Int32" />
+    <Property Name="Stoimost_v_sutki" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Kolichestvo_mest" Type="Int32" />
+    <Property Name="ID_kategorii" Type="Int32" />
+    <NavigationProperty Name="Kategorii" Relationship="Self.FK__Nomera__ID_kateg__4BAC3F29" FromRole="Nomera" ToRole="Kategorii" />
+  </EntityType>
+  <Association Name="FK__Nomera__ID_kateg__4BAC3F29">
+    <End Role="Kategorii" Type="Self.Kategorii" Multiplicity="0..1" />
+    <End Role="Nomera" Type="Self.Nomera" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategorii">
+        <PropertyRef Name="ID_kategorii" />
+      </Principal>
+      <Dependent Role="Nomera">
+        <PropertyRef Name="ID_kategorii" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GostinicaEntities5" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Kategoriis" EntityType="Self.Kategorii" />
+    <EntitySet Name="Nomeras" EntityType="Self.Nomera" />
+    <AssociationSet Name="FK__Nomera__ID_kateg__4BAC3F29" Association="Self.FK__Nomera__ID_kateg__4BAC3F29">
+      <End Role="Kategorii" EntitySet="Kategoriis" />
+      <End Role="Nomera" EntitySet="Nomeras" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

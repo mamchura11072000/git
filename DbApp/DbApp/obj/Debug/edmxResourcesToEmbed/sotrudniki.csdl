@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GostinicaModel3" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Sotrudniki">
+    <Key>
+      <PropertyRef Name="ID_sotrudnika" />
+    </Key>
+    <Property Name="ID_sotrudnika" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="Int32" />
+    <Property Name="ID_doljnosti" Type="Int32" />
+    <NavigationProperty Name="Doljnosti" Relationship="GostinicaModel3.FK__Sotrudnik__ID_do__5441852A" FromRole="Sotrudniki" ToRole="Doljnosti" />
+  </EntityType>
+  <EntityContainer Name="GostinicaEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Sotrudnikis" EntityType="Self.Sotrudniki" />
+    <EntitySet Name="Doljnostis" EntityType="GostinicaModel3.Doljnosti" />
+    <AssociationSet Name="FK__Sotrudnik__ID_do__5441852A" Association="GostinicaModel3.FK__Sotrudnik__ID_do__5441852A">
+      <End Role="Doljnosti" EntitySet="Doljnostis" />
+      <End Role="Sotrudniki" EntitySet="Sotrudnikis" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Doljnosti">
+    <Key>
+      <PropertyRef Name="ID_doljnosti" />
+    </Key>
+    <Property Name="ID_doljnosti" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Doljnost" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Oklad" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Sotrudnikis" Relationship="GostinicaModel3.FK__Sotrudnik__ID_do__5441852A" FromRole="Doljnosti" ToRole="Sotrudniki" />
+  </EntityType>
+  <Association Name="FK__Sotrudnik__ID_do__5441852A">
+    <End Type="GostinicaModel3.Doljnosti" Role="Doljnosti" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="GostinicaModel3.Sotrudniki" Role="Sotrudniki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doljnosti">
+        <PropertyRef Name="ID_doljnosti" />
+      </Principal>
+      <Dependent Role="Sotrudniki">
+        <PropertyRef Name="ID_doljnosti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

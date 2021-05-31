@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GostinicaModel4" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Doljnosti">
+    <Key>
+      <PropertyRef Name="ID_doljnosti" />
+    </Key>
+    <Property Name="ID_doljnosti" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Doljnost" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Oklad" Type="Decimal" Precision="19" Scale="4" />
+    <NavigationProperty Name="Sotrudnikis" Relationship="Self.FK__Sotrudnik__ID_do__5441852A" FromRole="Doljnosti" ToRole="Sotrudniki" />
+  </EntityType>
+  <EntityType Name="Kategorii">
+    <Key>
+      <PropertyRef Name="ID_kategorii" />
+    </Key>
+    <Property Name="ID_kategorii" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="tip" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Nomeras" Relationship="Self.FK__Nomera__ID_kateg__4BAC3F29" FromRole="Kategorii" ToRole="Nomera" />
+  </EntityType>
+  <EntityType Name="Klient">
+    <Key>
+      <PropertyRef Name="ID_klienta" />
+    </Key>
+    <Property Name="ID_klienta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Pasport" Type="Int32" />
+    <Property Name="Telefon" Type="Int32" />
+    <NavigationProperty Name="Uchets" Relationship="Self.FK__Uchet__ID_klient__59063A47" FromRole="Klient" ToRole="Uchet" />
+  </EntityType>
+  <EntityType Name="Nomera">
+    <Key>
+      <PropertyRef Name="ID_nomera" />
+    </Key>
+    <Property Name="ID_nomera" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nomer__" Type="Int32" />
+    <Property Name="Stoimost_v_sutki" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Kolichestvo_mest" Type="Int32" />
+    <Property Name="ID_kategorii" Type="Int32" />
+    <NavigationProperty Name="Kategorii" Relationship="Self.FK__Nomera__ID_kateg__4BAC3F29" FromRole="Nomera" ToRole="Kategorii" />
+    <NavigationProperty Name="Uchets" Relationship="Self.FK__Uchet__ID_nomera__5812160E" FromRole="Nomera" ToRole="Uchet" />
+  </EntityType>
+  <EntityType Name="Operacii">
+    <Key>
+      <PropertyRef Name="ID_operacii" />
+    </Key>
+    <Property Name="ID_operacii" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Operacia" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Uchets" Relationship="Self.FK__Uchet__ID_operac__571DF1D5" FromRole="Operacii" ToRole="Uchet" />
+  </EntityType>
+  <EntityType Name="Sotrudniki">
+    <Key>
+      <PropertyRef Name="ID_sotrudnika" />
+    </Key>
+    <Property Name="ID_sotrudnika" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="Int32" />
+    <Property Name="ID_doljnosti" Type="Int32" />
+    <NavigationProperty Name="Doljnosti" Relationship="Self.FK__Sotrudnik__ID_do__5441852A" FromRole="Sotrudniki" ToRole="Doljnosti" />
+    <NavigationProperty Name="Uchets" Relationship="Self.FK__Uchet__ID_sotrud__59FA5E80" FromRole="Sotrudniki" ToRole="Uchet" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Uchet">
+    <Key>
+      <PropertyRef Name="ID_ucheta" />
+    </Key>
+    <Property Name="ID_ucheta" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_operacii" Type="Int32" />
+    <Property Name="ID_nomera" Type="Int32" />
+    <Property Name="ID_klienta" Type="Int32" />
+    <Property Name="Date_vezda" Type="DateTime" Precision="0" />
+    <Property Name="Date_viezda" Type="DateTime" Precision="0" />
+    <Property Name="Stoimost" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="ID_sotrudnika" Type="Int32" />
+    <NavigationProperty Name="Klient" Relationship="Self.FK__Uchet__ID_klient__59063A47" FromRole="Uchet" ToRole="Klient" />
+    <NavigationProperty Name="Nomera" Relationship="Self.FK__Uchet__ID_nomera__5812160E" FromRole="Uchet" ToRole="Nomera" />
+    <NavigationProperty Name="Operacii" Relationship="Self.FK__Uchet__ID_operac__571DF1D5" FromRole="Uchet" ToRole="Operacii" />
+    <NavigationProperty Name="Sotrudniki" Relationship="Self.FK__Uchet__ID_sotrud__59FA5E80" FromRole="Uchet" ToRole="Sotrudniki" />
+  </EntityType>
+  <Association Name="FK__Sotrudnik__ID_do__5441852A">
+    <End Role="Doljnosti" Type="Self.Doljnosti" Multiplicity="0..1" />
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doljnosti">
+        <PropertyRef Name="ID_doljnosti" />
+      </Principal>
+      <Dependent Role="Sotrudniki">
+        <PropertyRef Name="ID_doljnosti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Nomera__ID_kateg__4BAC3F29">
+    <End Role="Kategorii" Type="Self.Kategorii" Multiplicity="0..1" />
+    <End Role="Nomera" Type="Self.Nomera" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategorii">
+        <PropertyRef Name="ID_kategorii" />
+      </Principal>
+      <Dependent Role="Nomera">
+        <PropertyRef Name="ID_kategorii" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Uchet__ID_klient__59063A47">
+    <End Role="Klient" Type="Self.Klient" Multiplicity="0..1" />
+    <End Role="Uchet" Type="Self.Uchet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klient">
+        <PropertyRef Name="ID_klienta" />
+      </Principal>
+      <Dependent Role="Uchet">
+        <PropertyRef Name="ID_klienta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Uchet__ID_nomera__5812160E">
+    <End Role="Nomera" Type="Self.Nomera" Multiplicity="0..1" />
+    <End Role="Uchet" Type="Self.Uchet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nomera">
+        <PropertyRef Name="ID_nomera" />
+      </Principal>
+      <Dependent Role="Uchet">
+        <PropertyRef Name="ID_nomera" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Uchet__ID_operac__571DF1D5">
+    <End Role="Operacii" Type="Self.Operacii" Multiplicity="0..1" />
+    <End Role="Uchet" Type="Self.Uchet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Operacii">
+        <PropertyRef Name="ID_operacii" />
+      </Principal>
+      <Dependent Role="Uchet">
+        <PropertyRef Name="ID_operacii" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Uchet__ID_sotrud__59FA5E80">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="0..1" />
+    <End Role="Uchet" Type="Self.Uchet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sotrudniki">
+        <PropertyRef Name="ID_sotrudnika" />
+      </Principal>
+      <Dependent Role="Uchet">
+        <PropertyRef Name="ID_sotrudnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GostinicaEntities4" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Doljnostis" EntityType="Self.Doljnosti" />
+    <EntitySet Name="Kategoriis" EntityType="Self.Kategorii" />
+    <EntitySet Name="Klients" EntityType="Self.Klient" />
+    <EntitySet Name="Nomeras" EntityType="Self.Nomera" />
+    <EntitySet Name="Operaciis" EntityType="Self.Operacii" />
+    <EntitySet Name="Sotrudnikis" EntityType="Self.Sotrudniki" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="Uchets" EntityType="Self.Uchet" />
+    <AssociationSet Name="FK__Sotrudnik__ID_do__5441852A" Association="Self.FK__Sotrudnik__ID_do__5441852A">
+      <End Role="Doljnosti" EntitySet="Doljnostis" />
+      <End Role="Sotrudniki" EntitySet="Sotrudnikis" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Nomera__ID_kateg__4BAC3F29" Association="Self.FK__Nomera__ID_kateg__4BAC3F29">
+      <End Role="Kategorii" EntitySet="Kategoriis" />
+      <End Role="Nomera" EntitySet="Nomeras" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Uchet__ID_klient__59063A47" Association="Self.FK__Uchet__ID_klient__59063A47">
+      <End Role="Klient" EntitySet="Klients" />
+      <End Role="Uchet" EntitySet="Uchets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Uchet__ID_nomera__5812160E" Association="Self.FK__Uchet__ID_nomera__5812160E">
+      <End Role="Nomera" EntitySet="Nomeras" />
+      <End Role="Uchet" EntitySet="Uchets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Uchet__ID_operac__571DF1D5" Association="Self.FK__Uchet__ID_operac__571DF1D5">
+      <End Role="Operacii" EntitySet="Operaciis" />
+      <End Role="Uchet" EntitySet="Uchets" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Uchet__ID_sotrud__59FA5E80" Association="Self.FK__Uchet__ID_sotrud__59FA5E80">
+      <End Role="Sotrudniki" EntitySet="Sotrudnikis" />
+      <End Role="Uchet" EntitySet="Uchets" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

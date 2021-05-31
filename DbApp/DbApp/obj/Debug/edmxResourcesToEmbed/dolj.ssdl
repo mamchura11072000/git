@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище GostinicaModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Doljnosti">
+    <Key>
+      <PropertyRef Name="ID_doljnosti" />
+    </Key>
+    <Property Name="ID_doljnosti" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Doljnost" Type="nvarchar" MaxLength="50" />
+    <Property Name="Oklad" Type="money" />
+  </EntityType>
+  <EntityType Name="Sotrudniki">
+    <Key>
+      <PropertyRef Name="ID_sotrudnika" />
+    </Key>
+    <Property Name="ID_sotrudnika" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FIO" Type="nvarchar" MaxLength="255" />
+    <Property Name="Telefon" Type="int" />
+    <Property Name="ID_doljnosti" Type="int" />
+  </EntityType>
+  <Association Name="FK__Sotrudnik__ID_do__5441852A">
+    <End Role="Doljnosti" Type="Self.Doljnosti" Multiplicity="0..1" />
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Doljnosti">
+        <PropertyRef Name="ID_doljnosti" />
+      </Principal>
+      <Dependent Role="Sotrudniki">
+        <PropertyRef Name="ID_doljnosti" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище GostinicaModelContainer">
+    <EntitySet Name="Doljnosti" EntityType="Self.Doljnosti" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sotrudniki" EntityType="Self.Sotrudniki" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Sotrudnik__ID_do__5441852A" Association="Self.FK__Sotrudnik__ID_do__5441852A">
+      <End Role="Doljnosti" EntitySet="Doljnosti" />
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

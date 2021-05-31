@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="45562268d51f4529a63ba61bab8fdfe1" Name="Diagram1">
+        <EntityTypeShape EntityType="GostinicaModel4.Doljnosti" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GostinicaModel4.Kategorii" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GostinicaModel4.Klient" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GostinicaModel4.Nomera" Width="1.5" PointX="3" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GostinicaModel4.Operacii" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GostinicaModel4.Sotrudniki" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GostinicaModel4.sysdiagram" Width="1.5" PointX="5.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GostinicaModel4.Uchet" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="GostinicaModel4.FK__Sotrudnik__ID_do__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="GostinicaModel4.FK__Nomera__ID_kateg__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="GostinicaModel4.FK__Uchet__ID_klient__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="GostinicaModel4.FK__Uchet__ID_nomera__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="GostinicaModel4.FK__Uchet__ID_operac__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="GostinicaModel4.FK__Uchet__ID_sotrud__59FA5E80" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

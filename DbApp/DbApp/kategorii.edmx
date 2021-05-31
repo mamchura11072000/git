@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище GostinicaModel5" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Kategorii">
+          <Key>
+            <PropertyRef Name="ID_kategorii" />
+          </Key>
+          <Property Name="ID_kategorii" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="tip" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Nomera">
+          <Key>
+            <PropertyRef Name="ID_nomera" />
+          </Key>
+          <Property Name="ID_nomera" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nomer_#" Type="int" />
+          <Property Name="Stoimost_v_sutki" Type="money" />
+          <Property Name="Kolichestvo_mest" Type="int" />
+          <Property Name="ID_kategorii" Type="int" />
+        </EntityType>
+        <Association Name="FK__Nomera__ID_kateg__4BAC3F29">
+          <End Role="Kategorii" Type="Self.Kategorii" Multiplicity="0..1" />
+          <End Role="Nomera" Type="Self.Nomera" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategorii">
+              <PropertyRef Name="ID_kategorii" />
+            </Principal>
+            <Dependent Role="Nomera">
+              <PropertyRef Name="ID_kategorii" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище GostinicaModel5Container">
+          <EntitySet Name="Kategorii" EntityType="Self.Kategorii" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Nomera" EntityType="Self.Nomera" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Nomera__ID_kateg__4BAC3F29" Association="Self.FK__Nomera__ID_kateg__4BAC3F29">
+            <End Role="Kategorii" EntitySet="Kategorii" />
+            <End Role="Nomera" EntitySet="Nomera" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="GostinicaModel5" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Kategorii">
+          <Key>
+            <PropertyRef Name="ID_kategorii" />
+          </Key>
+          <Property Name="ID_kategorii" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="tip" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Nomeras" Relationship="Self.FK__Nomera__ID_kateg__4BAC3F29" FromRole="Kategorii" ToRole="Nomera" />
+        </EntityType>
+        <EntityType Name="Nomera">
+          <Key>
+            <PropertyRef Name="ID_nomera" />
+          </Key>
+          <Property Name="ID_nomera" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nomer__" Type="Int32" />
+          <Property Name="Stoimost_v_sutki" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="Kolichestvo_mest" Type="Int32" />
+          <Property Name="ID_kategorii" Type="Int32" />
+          <NavigationProperty Name="Kategorii" Relationship="Self.FK__Nomera__ID_kateg__4BAC3F29" FromRole="Nomera" ToRole="Kategorii" />
+        </EntityType>
+        <Association Name="FK__Nomera__ID_kateg__4BAC3F29">
+          <End Role="Kategorii" Type="Self.Kategorii" Multiplicity="0..1" />
+          <End Role="Nomera" Type="Self.Nomera" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kategorii">
+              <PropertyRef Name="ID_kategorii" />
+            </Principal>
+            <Dependent Role="Nomera">
+              <PropertyRef Name="ID_kategorii" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="GostinicaEntities5" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Kategoriis" EntityType="Self.Kategorii" />
+          <EntitySet Name="Nomeras" EntityType="Self.Nomera" />
+          <AssociationSet Name="FK__Nomera__ID_kateg__4BAC3F29" Association="Self.FK__Nomera__ID_kateg__4BAC3F29">
+            <End Role="Kategorii" EntitySet="Kategoriis" />
+            <End Role="Nomera" EntitySet="Nomeras" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище GostinicaModel5Container" CdmEntityContainer="GostinicaEntities5">
+          <EntitySetMapping Name="Kategoriis">
+            <EntityTypeMapping TypeName="GostinicaModel5.Kategorii">
+              <MappingFragment StoreEntitySet="Kategorii">
+                <ScalarProperty Name="ID_kategorii" ColumnName="ID_kategorii" />
+                <ScalarProperty Name="tip" ColumnName="tip" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Nomeras">
+            <EntityTypeMapping TypeName="GostinicaModel5.Nomera">
+              <MappingFragment StoreEntitySet="Nomera">
+                <ScalarProperty Name="ID_nomera" ColumnName="ID_nomera" />
+                <ScalarProperty Name="Nomer__" ColumnName="Nomer_#" />
+                <ScalarProperty Name="Stoimost_v_sutki" ColumnName="Stoimost_v_sutki" />
+                <ScalarProperty Name="Kolichestvo_mest" ColumnName="Kolichestvo_mest" />
+                <ScalarProperty Name="ID_kategorii" ColumnName="ID_kategorii" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

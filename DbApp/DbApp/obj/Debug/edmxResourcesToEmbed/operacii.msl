@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище GostinicaModel2Container" CdmEntityContainer="GostinicaEntities2">
+    <EntitySetMapping Name="Operaciis">
+      <EntityTypeMapping TypeName="GostinicaModel2.Operacii">
+        <MappingFragment StoreEntitySet="Operacii">
+          <ScalarProperty Name="ID_operacii" ColumnName="ID_operacii" />
+          <ScalarProperty Name="Operacia" ColumnName="Operacia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

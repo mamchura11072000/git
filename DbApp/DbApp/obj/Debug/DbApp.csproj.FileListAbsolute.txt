@@ -1,0 +1,166 @@
+D:\Projects\DbApp\DbApp\bin\Debug\Database1.mdf
+D:\Projects\DbApp\DbApp\bin\Debug\Database1_log.ldf
+D:\Projects\DbApp\DbApp\bin\Debug\DbApp.exe.config
+D:\Projects\DbApp\DbApp\bin\Debug\DbApp.exe
+D:\Projects\DbApp\DbApp\bin\Debug\DbApp.pdb
+D:\Projects\DbApp\DbApp\obj\Debug\DbApp.csprojAssemblyReference.cache
+D:\Projects\DbApp\DbApp\obj\Debug\MainWindow.g.cs
+D:\Projects\DbApp\DbApp\obj\Debug\App.g.cs
+D:\Projects\DbApp\DbApp\obj\Debug\DbApp_Content.g.cs
+D:\Projects\DbApp\DbApp\obj\Debug\DbApp_MarkupCompile.cache
+D:\Projects\DbApp\DbApp\obj\Debug\DbApp_MarkupCompile.lref
+D:\Projects\DbApp\DbApp\obj\Debug\MainWindow.baml
+D:\Projects\DbApp\DbApp\obj\Debug\DbApp.g.resources
+D:\Projects\DbApp\DbApp\obj\Debug\DbApp.Properties.Resources.resources
+D:\Projects\DbApp\DbApp\obj\Debug\DbApp.csproj.GenerateResource.cache
+D:\Projects\DbApp\DbApp\obj\Debug\DbApp.csproj.CoreCompileInputs.cache
+D:\Projects\DbApp\DbApp\obj\Debug\DbApp.exe
+D:\Projects\DbApp\DbApp\obj\Debug\DbApp.pdb
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\bin\Debug\DbApp.exe.config
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\bin\Debug\DbApp.exe
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\bin\Debug\DbApp.pdb
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\MainWindow.g.cs
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\App.g.cs
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\DbApp_MarkupCompile.cache
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\DbApp_MarkupCompile.lref
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\MainWindow.baml
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\DbApp.g.resources
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\DbApp.Properties.Resources.resources
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\DbApp.csproj.GenerateResource.cache
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\DbApp.csproj.CoreCompileInputs.cache
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\DbApp.exe
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\DbApp.pdb
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\SotrudnikiWindow.g.cs
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\SotrudnikiWindow.baml
+C:\Users\mamch\OneDrive\Рабочий стол\DbApp\DbApp\obj\Debug\DbApp.csprojAssemblyReference.cache
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\bin\Debug\DbApp.exe.config
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\bin\Debug\DbApp.exe
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\bin\Debug\DbApp.pdb
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\MainWindow.g.cs
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\SotrudnikiWindow.g.cs
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\App.g.cs
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp_MarkupCompile.cache
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp_MarkupCompile.lref
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\MainWindow.baml
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\SotrudnikiWindow.baml
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.g.resources
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.Properties.Resources.resources
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.GenerateResource.cache
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.CoreCompileInputs.cache
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.exe
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.pdb
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\NomeraWindow.g.cs
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\NomeraWindow.baml
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\ZaezdWindow.g.cs
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\ZaezdWindow.baml
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\Window1.g.cs
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\Window1.baml
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp_Content.g.cs
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.dll
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.xml
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\mamch\OneDrive\Рабочий стол\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.CopyComplete
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\bin\Debug\DbApp.exe.config
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\bin\Debug\DbApp.exe
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\bin\Debug\DbApp.pdb
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.dll
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.xml
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\MainWindow.g.cs
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\NomeraWindow.g.cs
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\SotrudnikiWindow.g.cs
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\ZaezdWindow.g.cs
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\App.g.cs
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp_MarkupCompile.cache
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp_MarkupCompile.lref
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\MainWindow.baml
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\NomeraWindow.baml
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\SotrudnikiWindow.baml
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\ZaezdWindow.baml
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.g.resources
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.Properties.Resources.resources
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.GenerateResource.cache
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.CoreCompileInputs.cache
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.CopyComplete
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.exe
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.pdb
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\Novsotr.g.cs
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\Novsotr.baml
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp_Content.g.cs
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csprojAssemblyReference.cache
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\NovNomer.g.cs
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\NovNomer.baml
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.ResolveComReference.cache
+C:\Users\mamch\Desktop\КУРСОВИК\DbApp\DbApp\obj\Debug\App.baml
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\DbApp.exe.config
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\DbApp.exe
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\DbApp.pdb
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.dll
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.SqlServer.dll
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.xml
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.SqlServer.xml
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\ru\EntityFramework.resources.dll
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csprojAssemblyReference.cache
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.ResolveComReference.cache
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\MainWindow.g.cs
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\NomeraWindow.g.cs
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\NovNomer.g.cs
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\Novsotr.g.cs
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\SotrudnikiWindow.g.cs
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\ZaezdWindow.g.cs
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\App.g.cs
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp_Content.g.cs
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp_MarkupCompile.cache
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp_MarkupCompile.lref
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\App.baml
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\MainWindow.baml
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\NomeraWindow.baml
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\NovNomer.baml
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\Novsotr.baml
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\SotrudnikiWindow.baml
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\ZaezdWindow.baml
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.g.resources
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.Properties.Resources.resources
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.GenerateResource.cache
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.CoreCompileInputs.cache
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.CopyComplete
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.exe
+G:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.pdb
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\DbApp.exe.config
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\DbApp.exe
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\DbApp.pdb
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.dll
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.SqlServer.dll
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.xml
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\EntityFramework.SqlServer.xml
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\bin\Debug\ru\EntityFramework.resources.dll
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csprojAssemblyReference.cache
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.ResolveComReference.cache
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\MainWindow.g.cs
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\NomeraWindow.g.cs
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\NovNomer.g.cs
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\Novsotr.g.cs
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\SotrudnikiWindow.g.cs
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\ZaezdWindow.g.cs
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\App.g.cs
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp_Content.g.cs
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp_MarkupCompile.cache
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp_MarkupCompile.lref
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\App.baml
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\MainWindow.baml
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\NomeraWindow.baml
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\NovNomer.baml
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\Novsotr.baml
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\SotrudnikiWindow.baml
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\ZaezdWindow.baml
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.g.resources
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.Properties.Resources.resources
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.GenerateResource.cache
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.CoreCompileInputs.cache
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.csproj.CopyComplete
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.exe
+E:\32919.10\МДК 02.01 Технология разработки программного обеспечения\КУРСОВИК\DbApp\DbApp\obj\Debug\DbApp.pdb

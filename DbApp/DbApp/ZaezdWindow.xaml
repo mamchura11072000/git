@@ -1,0 +1,55 @@
+﻿ <Window x:Class="DbApp.ZaezdWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DbApp"
+        mc:Ignorable="d"
+        Title="Оформить заказ" Height="350" Width="639"  Icon="Resource\logotip.ico" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="20 8 20 8" />
+            <Setter Property="Width" Value="100" />
+            <Setter Property="Height" Value="30" />
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32*"></RowDefinition>
+            <RowDefinition Height="32*"></RowDefinition>
+            <RowDefinition Height="32*"></RowDefinition>
+            <RowDefinition Height="32*"></RowDefinition>
+            <RowDefinition Height="32*"></RowDefinition>
+            <RowDefinition Height="32*"></RowDefinition>
+            <RowDefinition Height="32*"></RowDefinition>
+            <RowDefinition Height="32*"></RowDefinition>
+            <RowDefinition Height="32*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180*"></ColumnDefinition>
+            <ColumnDefinition Width="180*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Паспорт" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center"/>
+        <Label Content="ФИО клиента" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center"/>
+        <Label Content="Телефон" Grid.Column="0" Grid.Row="2" HorizontalAlignment="Center"/>
+        <Label Content="Номер" Grid.Column="0" Grid.Row="3" HorizontalAlignment="Center"/>
+        <Label Content="Тип заказа" Grid.Column="0" Grid.Row="4" HorizontalAlignment="Center"/>
+        <Label Content="Дата заезда" Grid.Column="0" Grid.Row="5" HorizontalAlignment="Center"/>
+        <Label Content="Дата отъезда" Grid.Column="0" Grid.Row="6" HorizontalAlignment="Center"/>
+        <Label Content="Сотрудник" Grid.Column="0" Grid.Row="7" HorizontalAlignment="Center"/>
+        
+
+        <TextBox x:Name="pasportTextBox" Text="{Binding ElementName=pasportTextBox, Path=Text}"  Grid.Column="1" Grid.Row="0" Margin="5,5,5,5"/>
+        <TextBox x:Name="fioTextBox" Text="{Binding ElementName=fioTextBox, Path=Text}" Grid.Column="1" Grid.Row="1" Margin="5,5,5,5"/>
+        <TextBox x:Name="telephonTextBox" Text="{Binding ElementName=telephonTextBox, Path=Text}" Grid.Column="1" Grid.Row="2" Margin="5,5,5,5"/>
+        <ComboBox x:Name="nomerComboBox"   Grid.Column="1" Grid.Row="3" Margin="5,5,5,5"/>
+        <ComboBox x:Name="tipzakazaComboBox" Grid.Column="1" Grid.Row="4" Margin="5,5,5,5" />
+        <DatePicker x:Name="datazaezdaDatePicker" Text="{Binding ElementName=datazaezdaDatePicker, Path=Text}" Grid.Column="1" Grid.Row="5" Margin="5,5,5,5" />
+        <DatePicker x:Name="dataotezdaDatePicker" Text="{Binding ElementName=dataotezdaDatePicker, Path=Text}" Grid.Column="1" Grid.Row="6" Margin="5,5,5,5"/>
+        <ComboBox x:Name="sotrudnikComboBox"  Grid.Column="1" Grid.Row="7" Margin="5,5,5,5"/>
+        <Button x:Name="dobavit" Content="Добавить" Margin="5,5,5,6" Grid.Column="0" Grid.Row="8" Height="Auto" Width="Auto" Click="Dobavit_Click"/>
+        <Button x:Name="otmena" Content="Отмена" Margin="5" Grid.Column="1" Grid.Row="8" Width="Auto" Height="Auto" Click="Otmena_Click"/>
+    </Grid>
+</Window>

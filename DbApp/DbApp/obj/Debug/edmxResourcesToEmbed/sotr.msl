@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище GostinicaModelContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Doljnostis">
+      <EntityTypeMapping TypeName="GostinicaModel.Doljnosti">
+        <MappingFragment StoreEntitySet="Doljnosti">
+          <ScalarProperty Name="ID_doljnosti" ColumnName="ID_doljnosti" />
+          <ScalarProperty Name="Doljnost" ColumnName="Doljnost" />
+          <ScalarProperty Name="Oklad" ColumnName="Oklad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
